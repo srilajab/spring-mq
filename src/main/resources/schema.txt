@@ -1,0 +1,10 @@
+CREATE TABLE account(
+ id int PRIMARY KEY,
+ name text NOT NULL,
+ created_on TIMESTAMP,
+ balance REAL
+);
+
+insert into account (id, name, created_on, balance) values (10, 'Chase', '2017-02-05', 2341.65);
+insert into account (id, name, created_on, balance) values (11, 'BOA', '2017-02-05', 2000.65);
+insert into account (id, name, created_on, balance) values (12, 'PNC', '2017-02-06', 3872.65);
